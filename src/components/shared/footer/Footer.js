@@ -76,7 +76,7 @@ const Footer = () => {
                                             </defs>
                                         </svg>
                                     </span>
-                                    <span>+012 (345) 678 99</span>
+                                    <span>+088 (123) 456 789</span>
                                 </p>
                             </div>
                         </div>
