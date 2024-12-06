@@ -110,7 +110,7 @@ const BestDealsPage = () => {
                     </span>
                   </div>
                 </div>
-                <Button variant="default" className="w-full">
+                <Button variant="red" className="w-full">
                   Add to Cart
                 </Button>
               </CardContent>
