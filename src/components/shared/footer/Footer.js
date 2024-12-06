@@ -24,7 +24,7 @@ const NavLink = ({ link, label }) => (
 
 const Footer = () => {
     return (
-        <div className="md:w-3/4 mx-auto">
+        <div className="md:w-3/4 mx-auto p-4 md:p-0">
             <footer className="relative z-10 bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
@@ -160,7 +160,7 @@ const Footer = () => {
                                     </a>
                                 </div>
                                 <p className="text-base text-body-color dark:text-dark-6">
-                                    &copy; 2025 TailGrids
+                                    &copy; 2025 NextCommerce
                                 </p>
                             </div>
                         </div>
