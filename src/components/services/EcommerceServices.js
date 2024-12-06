@@ -9,7 +9,7 @@ const EcommerceServices = () => {
       description: "Enjoy free shipping on all orders",
     },
     {
-      icon: <Clock size={48} className="text-green-600" />,
+      icon: <Clock size={48} className="text-red-500" />,
       title: "24 Hours Delivery",
       description: "Fast delivery within 24 hours of order",
     },
@@ -21,7 +21,7 @@ const EcommerceServices = () => {
   ];
 
   return (
-    <div className="w-full md:w-3/4   mx-auto px-4 py-10">
+    <div className="w-full md:w-3/4 mt-12  md:mt-24  mx-auto px-4 py-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {services.map((service, index) => (
           <div

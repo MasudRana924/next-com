@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const Discount = () => {
   return (
-    <div className="md:w-3/4 container mx-auto px-4 py-8 md:py-16 ">
+    <div className="md:w-3/4 container mx-auto px-4 py-8 md:py-16 mt-12  md:mt-24 ">
       <div className="flex flex-wrap justify-between gap-6">
         {/* First Image Card */}
         <div className="flex-1 min-w-[calc(50%-1.5rem)]"> {/* Adjusts to 50% width minus margin */}

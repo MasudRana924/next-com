@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { CiSearch } from "react-icons/ci";
+import { Button } from "../ui/button";
 const SearchBar = () => {
   const router = useRouter();
   const handleSearch = () => {
@@ -17,9 +18,9 @@ const SearchBar = () => {
         placeholder="Search"
         className="flex-1 bg-transparent outline-none"
       />
-      <button >
-        <CiSearch  width={16} height={16} className="text-gray-900 text-2xl"/>
-      </button>
+      <Button variant="red">
+        <CiSearch  width={20} height={20} className="text-white"/>
+      </Button>
     </form>
   );
 };
