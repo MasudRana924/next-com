@@ -18,7 +18,7 @@ const SearchBar = () => {
         placeholder="Search"
         className="flex-1 bg-transparent outline-none"
       />
-      <Button variant="red">
+      <Button variant="indigo">
         <CiSearch  width={20} height={20} className="text-white"/>
       </Button>
     </form>

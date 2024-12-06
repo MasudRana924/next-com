@@ -95,7 +95,7 @@ const AuthForm = ({
             required
           />
         </div>
-        <Button type="submit" className="w-full " variant="red">
+        <Button type="submit" className="w-full " variant="indigo">
           {buttonText}
         </Button>
       </form>
@@ -104,7 +104,7 @@ const AuthForm = ({
       <p className="mt-4 text-center text-sm text-gray-600">
         {altText}{' '}
         <Link href={altLinkHref}>
-          <span className="text-red-500 font-medium hover:underline">{altLinkText}</span>
+          <span className="text-indigo-500 font-medium hover:underline">{altLinkText}</span>
         </Link>
       </p>
     </div>
