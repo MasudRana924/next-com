@@ -8,7 +8,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="mt-24 md:mt-44 w-3/4 mx-auto">
+    <div className="mt-24 md:mt-44 w-11/12 md:w-3/4 mx-auto">
       <AuthForm
         title="Sign Up"
         buttonText="Register"
